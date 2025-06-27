@@ -1,0 +1,48 @@
+title: MLCE — Modded Legacy Console Edition
+description: >
+  Your ultimate checkpoint for Minecraft Legacy Console Edition mods, skins, and more.
+baseurl: "" # no subpath for GitHub Pages root
+url: "https://yourusername.github.io/mlce" # CHANGE to your repo URL!
+
+theme: minima # simple Jekyll theme fallback, can customize heavily
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+markdown: kramdown
+
+permalink: pretty
+
+collections:
+  mods:
+    output: true
+    permalink: /:collection/:name/
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: post
+      author: SSMG4
+
+# Exclude these files from the build
+exclude:
+  - README.md
+  - LICENSE
+  - node_modules
+  - vendor
+  - package.json
+  - package-lock.json
+
+# Custom variables for theming (can be accessed in Liquid)
+theme_colors:
+  default: "#00ffcc"
+  gradients:
+    blaze: ["#ff6600", "#990000"]
+    ender: ["#4a148c", "#1a237e"]
+    slime: ["#00ff00", "#33cc99"]
+    creeper: ["#117733", "#000000"]
+
