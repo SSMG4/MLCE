@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>MLCE — Console Logos Gallery</title>
+  <link rel="icon" href="/assets/images/icons/block.png" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="/assets/js/theme.js" defer></script>
+  <link rel="stylesheet" href="/assets/css/custom.css" />
+
+  <style>
+    body {
+      background: linear-gradient(
+        160deg,
+        var(--theme-gradient-start),
+        var(--theme-gradient-end)
+      );
+      color: white;
+      font-family: 'Mojangles', sans-serif;
+      min-height: 100vh;
+      padding: 2rem;
+    }
+  </style>
+</head>
+<body class="flex flex-col items-center">
+  <header class="text-center mb-8">
+    <h1 class="text-5xl font-bold mb-2 mojangles drop-shadow-lg">🎮 Console Logos Gallery</h1>
+    <p class="text-white/80 max-w-xl mx-auto">
+      The iconic faces of all your favorite Legacy Console Edition platforms.
+    </p>
+    <a href="/" class="underline mt-4 inline-block hover:text-gray-300">← Back to Home</a>
+  </header>
+
+  <main class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-8 max-w-7xl w-full">
+    <!-- PS3 -->
+    <div class="flex flex-col items-center bg-black/50 rounded-xl p-4 shadow-lg border border-white">
+      <img src="/assets/images/logos/ps3.png" alt="PlayStation 3 Logo" class="h-24" />
+      <span class="mt-2">PlayStation 3</span>
+    </div>
+
+    <!-- PSVita -->
+    <div class="flex flex-col items-center bg-black/50 rounded-xl p-4 shadow-lg border border-white">
+      <img src="/assets/images/logos/vita.png" alt="PSVita Logo" class="h-24" />
+      <span class="mt-2">PSVita</span>
+    </div>
+
+    <!-- Xbox 360 -->
+    <div class="flex flex-col items-center bg-black/50 rounded-xl p-4 shadow-lg border border-white">
+      <img src="/assets/images/logos/xbox360.png" alt="Xbox 360 Logo" class="h-24" />
+      <span class="mt-2">Xbox 360</span>
+    </div>
+
+    <!-- Wii U -->
+    <div class="flex flex-col items-center bg-black/50 rounded-xl p-4 shadow-lg border border-white">
+      <img src="/assets/images/logos/wiiu.png" alt="Wii U Logo" class="h-24" />
+      <span class="mt-2">Wii U</span>
+    </div>
+
+    <!-- Nintendo Switch -->
+    <div class="flex flex-col items-center bg-black/50 rounded-xl p-4 shadow-lg border border-white">
+      <img src="/assets/images/logos/switch.png" alt="Nintendo Switch Logo" class="h-24" />
+      <span class="mt-2">Nintendo Switch</span>
+    </div>
+
+    <!-- Add more consoles here -->
+  </main>
+
+  <footer class="mt-10 text-xs opacity-60">
+    MLCE — Legacy mods and logos with FLOOF love.
+  </footer>
+</body>
+</html>
