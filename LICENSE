@@ -1,0 +1,50 @@
+FLOOF License v1.2
+
+Copyright (c) 2025 Matthew Gallon
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the “Software”), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, subject to the following conditions:
+
+1. **Attribution Requirement**  
+   Any modified or redistributed version of the Software must include clear and
+   visible attribution to the original author(s) and maintain a reference to the
+   original repository or source (if publicly available).
+
+2. **Modified Source Disclosure (Copyleft-Lite)**  
+   If the Software is modified and subsequently distributed (publicly or commercially),
+   the modified source code must be made available under the terms of this license.
+
+3. **No License Relicensing**  
+   This Software may not be relicensed under a different license, except with the
+   explicit, written permission of the original copyright holder(s).
+
+4. **Field of Use Neutrality**  
+   This license imposes no restrictions on the field of endeavor in which the Software
+   may be used, in compliance with the Open Source Definition. Ethical usage is encouraged,
+   but not mandated.
+
+5. **User Rights Consideration (Voluntary Clause)**  
+   The licensor encourages licensees to respect user rights, including transparency in
+   data collection and avoiding deceptive design practices. This is a non-binding clause
+   and serves as a recommendation for ethical development.
+
+6. **License Inclusion Requirement**  
+   A copy of this license must be included in all distributions of the Software, including
+   substantial portions thereof.
+
+7. **No Warranty**  
+   THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,
+   INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A
+   PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT
+   HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF
+   CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE
+   OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+8. **Severability Clause**  
+   If any provision of this license is found to be invalid or unenforceable, the remaining
+   provisions shall continue to be valid and enforceable to the fullest extent permitted by law.
+
+SPDX-License-Identifier: FLOOF-1.2
