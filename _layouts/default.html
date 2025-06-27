@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>{{ page.title | default: site.title }}</title>
+  <link rel="icon" href="/assets/images/icons/block.png" />
+  
+  <link rel="stylesheet" href="/assets/css/custom.css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="/assets/js/theme.js" defer></script>
+  
+  <style>
+    body {
+      background: linear-gradient(
+        160deg,
+        var(--theme-gradient-start),
+        var(--theme-gradient-end)
+      );
+      color: white;
+      font-family: 'Mojangles', sans-serif;
+      min-height: 100vh;
+      margin: 0;
+      padding: 0;
+    }
+  </style>
+</head>
+<body class="flex flex-col min-h-screen">
+
+  <header class="bg-black/70 p-4 shadow-md flex justify-between items-center">
+    <a href="{{ '/' | relative_url }}" class="text-xl font-bold mojangles text-white hover:text-cyan-300">
+      MLCE
+    </a>
+
+    <nav class="space-x-4 hidden sm:block">
+      <a href="{{ '/' | relative_url }}" class="hover:text-cyan-300">Home</a>
+      <a href="{{ '/logos.html' | relative_url }}" class="hover:text-cyan-300">Logos</a>
+      <a href="{{ '/theme-selector.html' | relative_url }}" class="hover:text-cyan-300">Themes</a>
+      <!-- Add more nav links here -->
+    </nav>
+  </header>
+
+  <main class="flex-grow container mx-auto p-6">
+    {{ content }}
+  </main>
+
+  <footer class="bg-black/70 p-4 text-center text-xs opacity-70">
+    Made with ❤️ and 🧱 by SSMG4 • <a href="{{ '/license' | relative_url }}" class="underline hover:text-cyan-300">FLOOF License</a>
+  </footer>
+</body>
+</html>
