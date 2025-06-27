@@ -1,8 +1,8 @@
-title: MLCE — Modded Legacy Console Edition
+title: MLCE — Modded-LCE
 description: >
   Your ultimate checkpoint for Minecraft Legacy Console Edition mods, skins, and more.
 baseurl: "" # no subpath for GitHub Pages root
-url: "https://yourusername.github.io/mlce" # CHANGE to your repo URL!
+url: "https://ssmg4.github.io/MLCE" # CHANGE to your repo URL!
 
 theme: minima # simple Jekyll theme fallback, can customize heavily
 
