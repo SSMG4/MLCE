@@ -1,0 +1,67 @@
+/* Import Mojangles font - hosted locally or fallback */
+@font-face {
+  font-family: 'Mojangles';
+  src: url('/assets/fonts/mojangles.woff2') format('woff2'),
+       url('/assets/fonts/mojangles.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  font-family: 'Mojangles', 'Arial', sans-serif;
+  background-color: var(--theme-main);
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #4ade80; /* Tailwind’s green-400 for a fresh vibe */
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #22c55e; /* Tailwind’s green-600 on hover */
+  text-decoration: underline;
+}
+
+/* Mod card styling */
+.mod-card {
+  background: rgba(0, 0, 0, 0.5);
+  border: 2px solid white;
+  border-radius: 1rem;
+  padding: 1rem;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+  transition: transform 0.3s ease;
+}
+
+.mod-card:hover {
+  transform: scale(1.05);
+}
+
+/* Buttons */
+.btn {
+  background-color: var(--theme-main);
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  font-weight: 700;
+  color: #000000;
+  box-shadow: 0 0 8px var(--theme-main);
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: var(--theme-gradient-end);
+  color: white;
+}
+
+/* Responsive tweaks */
+@media (max-width: 640px) {
+  .mod-card {
+    padding: 0.8rem;
+  }
+}
