@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>MLCE — Theme Selector</title>
+  <link rel="icon" href="/assets/images/icons/block.png" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="/assets/js/theme.js" defer></script>
+  <link rel="stylesheet" href="/assets/css/custom.css" />
+
+  <style>
+    body {
+      background: linear-gradient(
+        160deg,
+        var(--theme-gradient-start),
+        var(--theme-gradient-end)
+      );
+      color: white;
+      font-family: 'Mojangles', sans-serif;
+      min-height: 100vh;
+      padding: 2rem;
+    }
+  </style>
+</head>
+<body class="flex flex-col items-center">
+  <header class="text-center mb-8">
+    <h1 class="text-5xl font-bold mojangles drop-shadow-lg">🎨 Theme Selector</h1>
+    <p class="text-white/80 max-w-xl mx-auto mb-4">
+      Choose your custom color or gradient for MLCE’s look.
+    </p>
+    <a href="/" class="underline mb-6 inline-block hover:text-gray-300">← Back to Home</a>
+  </header>
+
+  <main class="max-w-xl w-full">
+    <form id="theme-form" class="flex flex-col gap-6">
+      <div>
+        <label for="theme-color" class="block mb-2 font-semibold">Pick a Hex Color:</label>
+        <input
+          type="color"
+          id="theme-color"
+          name="theme-color"
+          value="#00ffcc"
+          class="w-full h-12 rounded-lg cursor-pointer"
+        />
+      </div>
+
+      <div>
+        <label for="gradient-theme" class="block mb-2 font-semibold">Or pick a Gradient Theme:</label>
+        <select
+          id="gradient-theme"
+          name="gradient-theme"
+          class="w-full rounded-lg p-3 text-black font-semibold"
+        >
+          <option value="">-- None --</option>
+          <option value="blaze">Nether Blaze (Orange-Red)</option>
+          <option value="ender">Ender Magic (Purple-Blue)</option>
+          <option value="slime">Slime Slop (Green)</option>
+          <option value="creeper">Creeper Cursed (Dark Green-Black)</option>
+        </select>
+      </div>
+    </form>
+  </main>
+</body>
+</html>
