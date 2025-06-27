@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#000000" />
+    <title>MLCE — Modded-LCE</title>
+    <link rel="icon" href="/assets/images/icons/block.png" />
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <style>
+      :root {
+        --theme-main: #00ffcc;
+        --theme-gradient-start: #00ffcc;
+        --theme-gradient-end: #0066ff;
+      }
+
+      body {
+        background-color: var(--theme-main);
+        background: linear-gradient(
+          160deg,
+          var(--theme-gradient-start),
+          var(--theme-gradient-end)
+        );
+        color: white;
+        font-family: sans-serif;
+        min-height: 100vh;
+      }
+
+      .mojangles {
+        font-family: 'Mojangles', sans-serif;
+      }
+
+      #console-container {
+        max-width: 700px;
+      }
+    </style>
+  </head>
+
+  <body class="flex flex-col justify-center items-center p-6 text-center">
+    <h1 class="text-4xl font-bold mojangles drop-shadow-lg">
+      Welcome to MLCE!
+    </h1>
+    <p class="mt-4 text-lg max-w-xl">
+      The ultimate hub for Minecraft Legacy Console Edition mods, textures, maps, skins & more!
+    </p>
+
+    <div
+      id="console-container"
+      class="mt-8 grid grid-cols-2 sm:grid-cols-3 gap-4"
+    >
+      <a
+        href="/ps3.html"
+        class="bg-black/60 hover:bg-black/80 transition-all rounded-xl p-4 shadow-lg border-2 border-white"
+        >PS3</a
+      >
+      <a
+        href="/vita.html"
+        class="bg-black/60 hover:bg-black/80 transition-all rounded-xl p-4 shadow-lg border-2 border-white"
+        >PSVita</a
+      >
+      <a
+        href="/xbox360.html"
+        class="bg-black/60 hover:bg-black/80 transition-all rounded-xl p-4 shadow-lg border-2 border-white"
+        >Xbox 360</a
+      >
+      <a
+        href="/wiiu.html"
+        class="bg-black/60 hover:bg-black/80 transition-all rounded-xl p-4 shadow-lg border-2 border-white"
+        >Wii U</a
+      >
+      <a
+        href="/switch.html"
+        class="bg-black/60 hover:bg-black/80 transition-all rounded-xl p-4 shadow-lg border-2 border-white"
+        >Switch</a
+      >
+      <!-- more console links go here -->
+    </div>
+
+    <footer class="mt-10 text-sm opacity-60">
+      Made with ❤️ by SSMG4 • <a href="/license" class="underline">FLOOF License</a>
+    </footer>
+  </body>
+</html>
