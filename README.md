@@ -5,7 +5,7 @@
 ## 🧱 What's Inside?
 
 - Mods & content for:
-  - PS3, PSVita, PS4, PS5 (if it exists)
+  - PS3, PSVita, PS4
   - Xbox 360, Xbox One (if i can find some lol)
   - Wii U, 3DS, Switch
   - ...and more!
