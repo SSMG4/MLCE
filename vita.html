@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MLCE - PSVita Mods</title>
+    <link rel="icon" href="/assets/images/icons/vita.png" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="/assets/js/theme.js" defer></script>
+
+    <style>
+      :root {
+        --theme-main: #00ffcc;
+        --theme-gradient-start: #00ffcc;
+        --theme-gradient-end: #0066ff;
+      }
+
+      body {
+        background: linear-gradient(
+          160deg,
+          var(--theme-gradient-start),
+          var(--theme-gradient-end)
+        );
+        color: white;
+        font-family: sans-serif;
+        min-height: 100vh;
+      }
+
+      .mojangles {
+        font-family: 'Mojangles', sans-serif;
+      }
+    </style>
+  </head>
+  <body class="flex flex-col items-center p-6">
+    <header class="text-center">
+      <h1 class="text-4xl font-bold mojangles drop-shadow">
+        🎮 PSVita Mods
+      </h1>
+      <p class="mt-2 text-sm text-white/75">
+        Mods, texture packs, maps and more for your tiny warrior handheld.
+      </p>
+      <a href="/" class="mt-4 inline-block text-sm underline hover:text-gray-300">
+        ← Back to Home
+      </a>
+    </header>
+
+    <main class="mt-8 grid gap-6 sm:grid-cols-2 md:grid-cols-3 max-w-6xl w-full">
+      <!-- Example mod cards -->
+      <div class="bg-black/50 p-4 rounded-xl border border-white shadow-md hover:scale-[1.02] transition-all">
+        <h2 class="text-xl font-bold">Piston Madness</h2>
+        <p class="text-sm text-white/80 mt-1">Early redstone experiments. Works on TU24.</p>
+        <a href="#" class="mt-2 inline-block underline text-sm text-cyan-300">Download</a>
+      </div>
+
+      <div class="bg-black/50 p-4 rounded-xl border border-white shadow-md hover:scale-[1.02] transition-all">
+        <h2 class="text-xl font-bold">VitaCraft v2</h2>
+        <p class="text-sm text-white/80 mt-1">A full-on texture revamp with neon HUDs and UI.</p>
+        <a href="#" class="mt-2 inline-block underline text-sm text-cyan-300">Download</a>
+      </div>
+
+      <!-- Add more mod cards here -->
+    </main>
+
+    <footer class="mt-10 text-xs opacity-60">
+      MLCE – Powered by Theme Engines and Pure Nostalgia • FLOOF License
+    </footer>
+  </body>
+</html>
